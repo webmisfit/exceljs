@@ -1,8 +1,7 @@
 console.log('Module js');
 
 
-async function f(){
+async function f() {
     await Promise.resolve();
 }
-
 f()

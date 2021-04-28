@@ -1,4 +1,4 @@
-import './module';
+import './module'
 import './sass/style.scss'
 
 console.log('Working');
