@@ -1,0 +1,9 @@
+Webpack
+    Babel
+    Scss
+    EsLint
+    DevMode
+        Dev Server, SourceMaps, Not Minified
+    ProdMode
+        Minified 
+Git
