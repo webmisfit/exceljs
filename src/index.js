@@ -1,5 +1,3 @@
-import './module'
-import './sass/style.scss'
+import './scss/index.scss'
 
-console.log('Working');
-console.log('Chert')
+console.log('Working!')
