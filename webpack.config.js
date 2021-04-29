@@ -34,7 +34,7 @@ module.exports = {
       '@core': path.resolve(__dirname, 'src/core'),
     },
   },
-  plugins:[
+  plugins: [
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -54,12 +54,13 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: filename('css'),
+      // chunkFilename: '[id].css',
     }),
   ],
   module: {
     rules: [
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.s?css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -78,4 +79,5 @@ module.exports = {
       },
     ],
   },
+
 }
