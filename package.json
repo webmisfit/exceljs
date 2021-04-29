@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "lint" : "eslint"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -41,5 +41,8 @@
     "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
